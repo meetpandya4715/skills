@@ -1,6 +1,6 @@
-# agent-skills
+# skills
 
-Shared repository for reusable skills that can be adapted across AI-agent runtimes.
+General-purpose skills for AI agents and coding assistants.
 
 ## Included Skills
 
@@ -34,4 +34,4 @@ skills/
 
 ## Usage
 
-Use this repository as a source of portable skill definitions for AI-agent runtimes. Each platform may have its own packaging, prompt wiring, or metadata requirements, but the `skills/` directory should remain as runtime-neutral as practical.
+Use this repository as a source of reusable skill definitions. Each platform may have its own packaging, prompt wiring, or metadata requirements, but the `skills/` directory should remain as runtime-neutral as practical.
