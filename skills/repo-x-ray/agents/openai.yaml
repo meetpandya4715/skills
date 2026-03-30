@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo X-Ray"
+  short_description: "Inspect repos and generate comprehensive evidence-backed diagram sets"
+  default_prompt: "Use $repo-x-ray to inspect this repository and produce a comprehensive, evidence-backed Mermaid diagram set for understanding it."
