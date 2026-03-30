@@ -2,8 +2,6 @@
 
 Reusable skills for AI agents and coding assistants.
 
-Discover installed and community skills at [skills.sh](https://skills.sh).
-
 ## Install
 
 ```bash
@@ -39,4 +37,4 @@ npx skills@latest add meetpandya4715/skills --skill repo-x-ray -g -y
 
 ## Contributing
 
-If you have an idea for a new skill or an improvement to an existing one, open an issue or send a pull request.
+Contributions are welcome! Feel free to open an issue or submit a PR.
