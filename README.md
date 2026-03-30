@@ -1,6 +1,6 @@
 # codex-skills
 
-Standalone repository for custom Codex skills.
+Shared repository for reusable skills that can be adapted for multiple AI agents.
 
 ## Included Skills
 
@@ -18,4 +18,4 @@ skills/
 
 ## Usage
 
-Copy a skill folder into your Codex skills directory or use this repository as a source when publishing and sharing skills.
+Use this repository as a source of portable skill definitions for AI-agent runtimes. Each agent platform may have its own packaging or installation requirements, but the `skills/` directory is intended to stay reusable and agent-agnostic.
