@@ -1,8 +1,6 @@
-# skills
+# Agent Skills
 
 Reusable skills for AI agents and coding assistants.
-
-This repository is designed to work well with the `skills` CLI and to stay portable across agents such as Codex, OpenCode, Claude Code, Cursor, Gemini CLI, and similar runtimes.
 
 Discover installed and community skills at [skills.sh](https://skills.sh).
 
@@ -38,23 +36,6 @@ npx skills@latest add meetpandya4715/skills --skill repo-x-ray -g -y
   ```bash
   npx skills@latest add meetpandya4715/skills --skill repo-x-ray
   ```
-
-## Repository Layout
-
-```text
-skills/
-  repo-x-ray/
-    SKILL.md
-    agents/
-      openai.yaml
-```
-
-- `SKILL.md` holds the core skill instructions.
-- `agents/` holds optional runtime-specific adapters, prompts, or metadata.
-
-## Compatibility
-
-The goal of this repository is to keep the core skill logic runtime-neutral and isolate agent-specific behavior where needed. That makes the same skill easier to adapt across tools like Codex, OpenCode, Claude Code, Cursor, and Gemini CLI.
 
 ## Contributing
 
