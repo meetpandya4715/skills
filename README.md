@@ -39,8 +39,4 @@ npx skills@latest add meetpandya4715/skills --skill repo-x-ray -g -y
 
 ## Contributing
 
-Future skills in this repository should follow the same pattern:
-
-1. Put the reusable instructions in `skills/<skill-name>/SKILL.md`.
-2. Keep the frontmatter clear and discoverable with `name` and `description`.
-3. Add runtime-specific adapter files only when they are actually needed.
+If you have an idea for a new skill or an improvement to an existing one, open an issue or send a pull request.
